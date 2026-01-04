@@ -38,7 +38,7 @@ export default function MainContent() {
 	}, []);
 	return (
 
-		<div className=" relative w-sreen h-160 ">
+		<div className=" relative w-sreen h-155 ">
       
 			<Image
 				src={images[currentImageIndex].src}
