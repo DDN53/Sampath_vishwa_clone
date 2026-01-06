@@ -7,11 +7,11 @@ export default function Footer() {
     <>  <div className='w-full bg-black p-6 flex flex-row justify-between h-96 px-20'>
     <div> 
     <div className="flex flex-col items-start w-96 bg-black justify-start p-4">
-  <h1 className="text-white text-base font-bold">
+  <h1 className="text-white  font-bold">
     Sampath Bank PLC
   </h1>
 
-          <p className="mt-2 text-white text-left text-sm">
+          <p className="mt-2 text-white text-left ">
             Sampath Vishwa is a unique internet banking facility offered by 
             Sampath Bank, providing you with a seamless and 
             comprehensive online banking experience.
@@ -50,12 +50,12 @@ export default function Footer() {
   </div>
 
   
-  <div className="mt-20">
+  <div className="mt-10 text-sm">
     <a
       href="https://www.sampath.lk/privacy-policy"
       target="_blank"
       rel="noopener noreferrer"
-      className="text-white underline text-sm"
+      className="text-white underline "
     >
       Privacy Policy
     </a>
@@ -68,13 +68,13 @@ export default function Footer() {
     <div className='flex bg-black'>
     <div className="flex flex-col items-start w-48 bg-black h-64 justify-start p-4 ">
      
-     <h1 className="text-white text-base font-bold -mt-2.5">
+     <h1 className="text-white  font-bold -mt-2.5">
        Links
      </h1>
      <div className=' flex flex-col gap-4 mt-3 '> 
      <a
        href="https://www.sampath.lk/api/uploads/English_a8049a67e5_44ce79e38c_7f0e02ac75.jpg"
-       className="text-white underline text-sm"
+       className="text-white underline "
        target="_blank"
        rel="noopener noreferrer"
      >
@@ -98,7 +98,7 @@ export default function Footer() {
    </div>
    <div className="flex flex-col items-start w-48 bg-black h-64 justify-start p-4 ">
      
-     <h1 className="text-white text-base font-bold -mt-2.5">
+     <h1 className="text-white  font-bold -mt-2.5">
        Downloads
      </h1>
      <div className=' flex flex-col gap-4 mt-3 '>
@@ -124,10 +124,10 @@ export default function Footer() {
  
    <div className="flex flex-col items-start w-48 bg-black h-64 justify-start p-4 ">
      
-     <h1 className="text-white text-base font-bold -mt-2.5">
+     <h1 className="text-white  font-bold -mt-2.5">
        Location
      </h1>
-     <div className=' flex flex-col gap-2 mt-3 text-sm '> 
+     <div className=' flex flex-col gap-2 mt-3  '> 
   <span className='text-white'>Sampth Bank PLC,</span>
   <span className='text-white'> No 110, Sir James Peiris Mawatha,</span>
   <span className='text-white'> Colombo 02, Sri Lanka</span>
@@ -144,8 +144,8 @@ export default function Footer() {
    
     </div>
   
-    <div className='bg-black mt-12 text-center py-3'>
-<h3 className="text-white text-sm">Sampath Vishwa Retail V4.0.0   © 2026  Sampath Bank PLC | All rights reserved. </h3>
+    <div className='bg-black mt-9 text-center py-3'>
+<h3 className="text-white ">Sampath Vishwa Retail V4.0.0   © 2026  Sampath Bank PLC | All rights reserved. </h3>
    </div>
 
   </div>

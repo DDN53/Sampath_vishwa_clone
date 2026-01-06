@@ -2,7 +2,9 @@ import React from 'react';
 import Image from 'next/image';
 
 export default function Header() {
+	const [textSize, setTextSize] = useState("text-base");
 	return (
+		
 		<div className="w-full h-24 fixed top-0 left-0 right-0 bg-white/20 backdrop-blur-none flex items-center justify-center z-50">
 			<div className="absolute sm:left-10 mt-0 -left-9">
 				<ul className="flex items-center">
