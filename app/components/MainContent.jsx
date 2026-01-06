@@ -48,11 +48,9 @@ export default function MainContent() {
 				
 			/>
 
-				{/* <div className="absolute inset-0 bg-black/30"></div> */}
-
-				{/* Header */}
+				
 				<div className="absolute top-7/12 right-10 -translate-y-1/2 z-20 ">
-					{/* Header */}
+					
 					<div className="w-96 bg-black/70 p-4 rounded-t-xl text-white ">
 						<h2 className="text-4xl font-extralight mb-2 ml-10">Sampath Vishwa</h2>
 						<p className="text-base font-sans text-gray-200 ml-10">
@@ -60,9 +58,9 @@ export default function MainContent() {
 						</p>
 					</div>
 
-					{/* Form */}
+					
 					<form className="w-96 bg-black/70 rounded-b-xl px-6 flex flex-col gap-2">
-						{/* Username */}
+						
 						<label className="text-gray-400 text-sm">Sampath Vishwa Username</label>
 						<input
 							type="text"
@@ -70,7 +68,7 @@ export default function MainContent() {
 							className="w-full border border-gray-500 p-2 rounded-md bg-black text-sm text-white"
 						/>
 
-						{/* Password */}
+						
 						<label className="text-gray-400 text-sm">Password</label>
 
 						<div className="relative w-full">
@@ -89,7 +87,7 @@ export default function MainContent() {
 							</button>
 						</div>
 
-						{/* Login Button */}
+						
 						<button className="mt-4 w-1/2 self-center bg-gray-400 text-white py-2 rounded-md hover:bg-gray-300">
 							Login
 						</button>
