@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>  <div className='w-full bg-black p-6 flex flex-row justify-between h-96 px-20'>
     <div> 
-    <div className="flex flex-col items-start w-96 bg-black justify-start p-4">
+    <div className="flex flex-col items-start w-100 bg-black justify-start p-4">
   <h1 className="text-white  font-bold">
     Sampath Bank PLC
   </h1>
@@ -50,7 +50,7 @@ export default function Footer() {
   </div>
 
   
-  <div className="mt-10 text-sm">
+  <div className="mt-5 ">
     <a
       href="https://www.sampath.lk/privacy-policy"
       target="_blank"
