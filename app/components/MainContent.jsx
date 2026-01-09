@@ -49,7 +49,7 @@ export default function MainContent() {
 			/>
 
 				
-				<div className="absolute top-7/12 right-10 -translate-y-1/2 z-20 ">
+				<div className="absolute top-7/12 md:right-10  -translate-y-1/2 z-20  ">
 					
 					<div className="w-96 bg-black/70 p-4 rounded-t-xl text-white ">
 						<h2 className="text-4xl font-extralight mb-2 ml-10">Sampath Vishwa</h2>
