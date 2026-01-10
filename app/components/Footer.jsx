@@ -5,7 +5,7 @@ import Image from 'next/image';
 export default function Footer() {
   return (
     <>  
-      <div className="md:w-full bg-black p-6 flex flex-col md:flex-row md:justify-between md:h-96 md:px-20">
+      <div className="md:w-full bg-black p-6 flex flex-col md:flex-row md:justify-between md:h-full md:px-20">
         <div> 
           <div className="flex flex-col md:items-start md:w-100 bg-black md:justify-start md:p-4 justify-center items-center">
             <h1 className="text-white font-bold">
@@ -44,7 +44,7 @@ export default function Footer() {
                 <FaYoutube className="text-white" />
               </a>
             </div>
-            <div className="md:mt-5 hidden md:block ">
+            <div className="md:mt-10 hidden md:block ">
               <a
                 href="https://www.sampath.lk/privacy-policy"
                 target="_blank"
@@ -57,12 +57,12 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col w-full md:w-auto">
-          <div className="flex flex-col md:flex-row bg-black w-full">
+          <div className="flex flex-col md:flex-row bg-black w-full px-36 md:px-0">
             <div className="flex flex-col md:items-start md:w-48 bg-black md:h-64 justify-start md:p-4 w-80">
-              <h1 className="text-white font-bold -mt-2.5">
+              <h1 className="text-white font-bold mt-6 md:-mt-2.5">
                 Links
               </h1>
-              <div className="flex flex-col gap-4 mt-3">
+              <div className="flex flex-col gap-4 mt-2 md:mt-3 -ml-8 md:ml-0">
                 <a
                   href="https://www.sampath.lk/api/uploads/English_a8049a67e5_44ce79e38c_7f0e02ac75.jpg"
                   className="text-white underline"
@@ -78,11 +78,11 @@ export default function Footer() {
                 <a href="https://www.sampath.lk/api/uploads/Sampath_Bank_Accessibility_Policy_EST_3_3368267a24_f750045709_7095d6521a.pdf" className="text-white underline" target="_blank" rel="noopener noreferrer">Accessibility Policy</a>
               </div>
             </div>
-            <div className="flex flex-col items-start w-20 md:w-48 bg-black h-64 justify-start p-4">
-              <h1 className="text-white font-bold -mt-2.5">
+            <div className="flex flex-col items-start w-[425px] md:w-48 bg-black md:h-64 justify-start  h-52 px-0 md:p-4">
+              <h1 className="text-white font-bold  mt-4 md:-mt-3 -ml-4 md:ml-0">
                 Downloads
               </h1>
-              <div className="flex flex-col gap-4 mt-3">
+              <div className="flex md:flex-col gap-4 mt-3 -ml-20 md:ml-0">
                 <a
                   href="https://apps.apple.com/ly/app/sampath-vishwa-retail/id6478132816"
                   target="_blank"
@@ -98,12 +98,13 @@ export default function Footer() {
                   <Image src="/playstore.jpeg" alt="Google Play" width={100} height={100} />
                 </a>
               </div>
+              
             </div>
-            <div className="flex flex-col items-start w-20 md:w-48 bg-black h-64 justify-start md:p-4">
-              <h1 className="text-white font-bold -mt-2.5">
+            <div className="flex flex-col items-start w-20 md:w-48 bg-black h-64 justify-start md:p-4  -mt-[120px] md:-mt-1 -ml-4 md:ml-0">
+              <h1 className="text-white font-bold mt-9 md:-mt-2.5">
                 Location
               </h1>
-              <div className="flex flex-col gap-2 mt-3">
+              <div className="flex flex-col gap-2 mt-3 -ml-4 md:ml-0">
                 <span className="text-white">Sampth Bank PLC,</span>
                 <span className="text-white"> No 110, Sir James Peiris Mawatha,</span>
                 <span className="text-white"> Colombo 02, Sri Lanka</span>
@@ -112,7 +113,7 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="items-center j  flex md:hidden ">
+          <div className="items-center justify-center flex md:hidden mt-6 md:mt-3 ">
               <a
                 href="https://www.sampath.lk/privacy-policy"
                 target="_blank"
@@ -122,7 +123,7 @@ export default function Footer() {
                 Privacy Policy
               </a>
             </div>
-          <div className="bg-black mt-9 text-center py-3">
+          <div className="bg-black text-center mt-5 md:mt-9 md:py-3">
             <h3 className="text-white">Sampath Vishwa Retail V4.0.0   © 2026  Sampath Bank PLC | All rights reserved. </h3>
           </div>
         </div>
