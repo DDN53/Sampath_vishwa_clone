@@ -78,8 +78,8 @@ export default function Footer() {
                 <a href="https://www.sampath.lk/api/uploads/Sampath_Bank_Accessibility_Policy_EST_3_3368267a24_f750045709_7095d6521a.pdf" className="text-white underline" target="_blank" rel="noopener noreferrer">Accessibility Policy</a>
               </div>
             </div>
-            <div className="flex flex-col items-start w-[425px] md:w-48 bg-black md:h-64 justify-start  h-52 px-0 md:p-4">
-              <h1 className="text-white font-bold  mt-4 md:-mt-3 -ml-4 md:ml-0">
+            <div className="flex flex-col items-start w-106.25 md:w-48 bg-black md:h-64 justify-start h-52 px-0 md:p-4">
+              <h1 className="text-white font-bold mt-4 md:-mt-3 -ml-4 md:ml-0">
                 Downloads
               </h1>
               <div className="flex md:flex-col gap-4 mt-3 -ml-20 md:ml-0">
@@ -98,9 +98,8 @@ export default function Footer() {
                   <Image src="/playstore.jpeg" alt="Google Play" width={100} height={100} />
                 </a>
               </div>
-              
             </div>
-            <div className="flex flex-col items-start w-20 md:w-48 bg-black h-64 justify-start md:p-4  -mt-[120px] md:-mt-1 -ml-4 md:ml-0">
+            <div className="flex flex-col items-start w-20 md:w-48 bg-black h-64 justify-start md:p-4 -mt-30 md:-mt-1 -ml-4 md:ml-0">
               <h1 className="text-white font-bold mt-9 md:-mt-2.5">
                 Location
               </h1>
