@@ -38,7 +38,7 @@ export default function MainContent() {
 	}, []);
 	return (
 
-		<div className=" relative w-sreen h-155 ">
+		<div className=" relative h-155 w-5xl md:w-screen ">
       
 			<Image
 				src={images[currentImageIndex].src}
@@ -49,17 +49,16 @@ export default function MainContent() {
 			/>
 
 				
-				<div className="absolute top-7/12 md:right-10  -translate-y-1/2 z-20  ">
-					
-					<div className="w-96 bg-black/70 p-4 rounded-t-xl text-white ">
-						<h2 className="text-4xl font-extralight mb-2 ml-10">Sampath Vishwa</h2>
-						<p className="text-base font-sans text-gray-200 ml-10">
+				<div className="absolute top-7/12 md:right-10  -translate-y-1/2 z-20 ml-8 ">
+					<div className=" w-84 md:w-96 bg-black/70 p-4 rounded-t-xl text-white  ">
+						<h2 className="text-4xl font-extralight mb-2  ml-2 md:ml-10">Sampath Vishwa</h2>
+						<p className="text-base font-sans text-gray-200 ml-2 md:ml-10">
 							Enter Vishwa Username & Password to access your account
 						</p>
 					</div>
 
 					
-					<form className="w-96 bg-black/70 rounded-b-xl px-6 flex flex-col gap-2">
+					<form className="w-84 md:w-96 bg-black/70 rounded-b-xl px-6 flex flex-col gap-2">
 						
 						<label className="text-gray-400 text-sm">Sampath Vishwa Username</label>
 						<input

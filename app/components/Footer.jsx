@@ -4,9 +4,10 @@ import Image from 'next/image';
 
 export default function Footer() {
   return (
-    <>  <div className='w-full bg-black p-6 flex  flex-col md:flex-row justify-between h-96 px-20'>
+    <>  
+    <div className=' w-3xl md:w-full bg-black p-6 flex flex-col md:flex-row md:justify-between h-96 md:px-20'>
     <div> 
-    <div className="flex flex-col items-start w-100 bg-black justify-start p-4">
+    <div className="flex flex-col md:items-start md:w-100 bg-black md:justify-start md:p-4  ">
   <h1 className="text-white  font-bold">
     Sampath Bank PLC
   </h1>
@@ -66,7 +67,7 @@ export default function Footer() {
   </div>
   <div> 
     <div className='flex bg-black'>
-    <div className="flex flex-col items-start w-48 bg-black h-64 justify-start p-4 ">
+    <div className="flex flex-col md:items-start w-20 md:w-48 bg-black md:h-64 justify-start md:p-4 ">
      
      <h1 className="text-white  font-bold -mt-2.5">
        Links
@@ -96,7 +97,7 @@ export default function Footer() {
    
    
    </div>
-   <div className="flex flex-col items-start w-48 bg-black h-64 justify-start p-4 ">
+   <div className="flex flex-col items-start w-20 md:w-48 bg-black h-64 justify-start p-4 ">
      
      <h1 className="text-white  font-bold -mt-2.5">
        Downloads
@@ -122,7 +123,7 @@ export default function Footer() {
    
    </div>
  
-   <div className="flex flex-col items-start w-48 bg-black h-64 justify-start p-4 ">
+   <div className="flex flex-col items-start w-20 md:w-48 bg-black h-64 justify-start md:p-4 ">
      
      <h1 className="text-white  font-bold -mt-2.5">
        Location

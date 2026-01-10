@@ -55,7 +55,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" flex md:hidden w-full h-24 fixed top-0 left-0 right-0  items-center justify-between px-6 z-40 bg-white/20">
+      <div className=" absolute flex md:hidden w-full h-24  top-0 left-0 right-0  items-center justify-between px-6 z-40 bg-white/20">
         <div className="absolute md:left-10 mt-0 -left-9">
           <ul className="flex items-center">
             <li className=" mr-2 -mt-4 ">
