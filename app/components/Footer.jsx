@@ -44,7 +44,7 @@ export default function Footer() {
                 <FaYoutube className="text-white" />
               </a>
             </div>
-            <div className="md:mt-10 hidden md:block ">
+            <div className="md:mt-20 hidden md:block ">
               <a
                 href="https://www.sampath.lk/privacy-policy"
                 target="_blank"

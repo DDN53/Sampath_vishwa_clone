@@ -74,7 +74,7 @@ export default function Home() {
             {open ? <X size={28} /> : <Menu size={28} />}
           </button>
           {open && (
-            <div className="fixed top-0 right-0 w-60 bg-black shadow-lg md:hidden z-50 h-screen text-white flex flex-col">
+            <div onClick={() => setOpen(false)} className="fixed top-0 right-0 w-60 bg-black shadow-lg md:hidden z-50 h-screen text-white flex flex-col">
               <div className="flex-1 flex flex-col justify-center items-center gap-6 py-6">
                 <button
                   onClick={() => setTextSize("text-sm")}
@@ -106,7 +106,7 @@ export default function Home() {
         </div>
       </div>
       {/* <Header /> */}
-      <Herosection />
+      <Herosection onClick={() => setOpen(false)}/>
       <Footer />
       </div>
    
